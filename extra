@@ -19,13 +19,17 @@ Assignments ( Will upload edureka)  (8) 15%
 100% Interview 
 200%
 
-HTML
-CSS
-Bootstrap
-Javascript
-Nodes+Express
-Mongo
-React
+HTML > Raw Structure 
+CSS > Looks and feels
+Bootstrap > Responsive Design
+Javascript > Add Dynmic to website
+Nodes+Express > Backend of app (help to make API)
+Mongo > Database (it will save all our data)
+React > Frontend (display part of app)
+
+
+MERN Stack
+
 
 https://github.com/ > Signup(create account)    
 https://github.com/Aakashdeveloper > Follow
@@ -33,3 +37,27 @@ https://www.youtube.com/developerfunnel > Subscribe
 https://code.visualstudio.com/ > install
 https://git-scm.com/downloads > Install
 https://nodejs.org/en/ > Install
+
+
+extensions
+> vscode-icons
+> spellCheck
+> Githistory
+> GitLens
+> tabnine 
+
+
+////////////
+HTML > this is the main tag of the page
+HEAD > All the links (css, javascript) (title,metatag)
+BODY > All the content that is visible to user 
+
+
+Inline Element
+> Start in the same line
+> Only take the space which is required
+> a,img, span
+Block Level Element
+> Always Start from new line
+> Take whole width of screen
+> P, div, h1-h6
