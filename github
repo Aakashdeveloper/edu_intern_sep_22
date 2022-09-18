@@ -1,0 +1,35 @@
+https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/master/README.md
+
+//Step to generate token
+Settings > Developer Settings > Personal access tokens > Generate
+(Save this generated token somewhere)
+
+// First Time from new folder
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Aakashdeveloper/profileweb.git
+git push -u origin main
+
+
+**If you face problem replace remote cmd
+git remote add origin https://profilename:token@github.com/Aakashdeveloper/profileweb.git
+
+
+git remote add origin https://aakashdeveloper:3534ffd5h4@github.com/Aakashdeveloper/profileweb.git
+
+
+// Next time from same folder 
+git add .
+git commit -m "code"
+git push
+
+
+git remote add origin https://aakashdeveloper:3534ffd5h4@github.com/Aakashdeveloper/profileweb.git
+
+
+///Step to make it live
+> go inside repo > setting > pages > 
+change branch to main > save
+> CustomeDomain (add your website name)
