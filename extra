@@ -80,3 +80,43 @@ Copyright
 
 
 >>> https://www.w3schools.com/tags/tag_hn.asp
+
+SEO > search engine optimsation
+
+
+//////
+CSS > Cascase Style Sheet
+
+inline Css
+styleTag
+StylesSheet
+
+inline > styleTag > StylesSheet
+
+inline{
+    color:'red',
+    text-align:'center'
+}
+
+styleTag
+{
+    color:'orange',
+    font-size:'30';
+    width:50%
+}
+
+StylesSheet
+{
+    width:40%;
+    text-align:right;
+    height:200px
+}
+
+{
+    color:'red',
+    text-align:'center',
+    font-size:'30',
+    width:50%,
+    height:200px
+
+}
