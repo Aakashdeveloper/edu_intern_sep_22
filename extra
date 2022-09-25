@@ -120,3 +120,17 @@ StylesSheet
     height:200px
 
 }
+
+https://htmlcolorcodes.com/
+
+//// Target element ////////////////
+Id 
+> When you want target something unique
+> #
+ClassName
+> When you want to target group to element for same properties
+> .
+
+TagName
+> Help to target same elment by tag
+a , p

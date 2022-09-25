@@ -1,0 +1,23 @@
+header{
+    text-align:center;
+    color:rgb(28, 113, 11)
+}
+h2{
+    color:white
+}
+#main{
+    width:90%;
+    margin-left:7%;
+    height:400px  
+}
+.card{
+    height:400px;
+    width:20%;
+    background-color:#79BDD8;
+    float:left;
+    margin-left:2%
+}
+.card img{
+    width:100%;
+    height:200px
+}
