@@ -134,3 +134,9 @@ ClassName
 TagName
 > Help to target same elment by tag
 a , p
+
+solid
+dotted
+dashed
+double
+groove

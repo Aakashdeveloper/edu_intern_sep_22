@@ -8,16 +8,57 @@ h2{
 #main{
     width:90%;
     margin-left:7%;
-    height:400px  
+    display: inline-block;
+}
+#gray{
+    background-color:#bdc8d2
 }
 .card{
     height:400px;
     width:20%;
     background-color:#79BDD8;
     float:left;
-    margin-left:2%
+    margin-left:2%;
+    overflow: scroll;
+    margin-top:1%
+}
+.brown{
+    background-color:rgb(196 118 54)
+}
+.lightbrown{
+    background-color:#bfad9f
 }
 .card img{
     width:100%;
     height:200px
+}
+
+footer{
+    text-align: center;
+}
+
+#main1{
+    width:90%;
+    margin-left:7%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.card1{
+    height:400px;
+    width:20%;
+    background-color:#79BDD8;
+    margin-left:2%;
+    overflow: scroll;
+    margin-top:1%
+}
+
+.brown1{
+    background-color:rgb(196 118 54)
+}
+.lightbrown1{
+    background-color:#bfad9f
+}
+#gray1{
+    background-color:#bdc8d2
 }

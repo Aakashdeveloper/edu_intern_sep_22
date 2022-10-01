@@ -1,0 +1,26 @@
+body{
+    margin:auto
+}
+/*Header Css*/
+header{
+    height:60px;
+    border:2px  solid red
+}
+
+/*Search Css*/
+#search{
+    height:400px;
+    border:5px  solid blue 
+}
+
+/*QuickSearch Css*/
+
+#quickSearch{
+    height:600px;
+    border:5px  solid green 
+}
+/*Footer Css*/
+Footer{
+    height:100px;
+    border:5px  solid brown
+}
