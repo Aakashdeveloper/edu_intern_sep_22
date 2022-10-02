@@ -140,3 +140,6 @@ dotted
 dashed
 double
 groove
+
+position: absolute
+position: relative
