@@ -143,3 +143,27 @@ groove
 
 position: absolute
 position: relative
+
+
+
+var a = [
+    {"name":"John","id":"1a","city":"Paris"},
+    {"name":"amrit","id":"1a","city":"Delhi"},
+    {"name":"Shruti","id":"2a","city":"Hongkong"}
+]
+
+var b =  [
+    {"id":"1a","code":"Code11"},
+    {"id":"2a","code":"Code12"}
+]
+
+a.map((data) => {
+    return b.map((datcode) => {
+        let obj = {}
+        if(data.id == datcode.id){
+            obj.name=data.name;
+            obj.code= datcode.code
+        }
+        return obj
+    })
+})

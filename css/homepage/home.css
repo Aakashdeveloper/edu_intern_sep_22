@@ -1,5 +1,9 @@
 body{
-    margin:auto
+    margin:auto;
+    background-color:rgb(232, 196, 231)
+}
+a{
+    text-decoration: none;
 }
 /*Header Css*/
 header{
@@ -102,14 +106,89 @@ select{
 /*QuickSearch Css*/
 
 #quickSearch{
-    height:600px;
-    border:5px  solid green;
+    /* height:600px; */
+    /* border:5px  solid green; */
     width:80%;
     margin-left:10%;
-    margin-top:2%
+    margin-top:2%;
 }
+
+#quickHeading{
+    font-size:30px;
+    display:block;
+    color:#3b2632;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:2%;
+}
+#quickSubHeading{
+    font-size:20px;
+    color:gray;
+    display:block;
+    line-height: 2;
+    margin-left:2%;
+}
+
+.tileContainer{
+    width: 30%;
+    height:180px;
+    display:inline-block;
+    margin-left:2%;
+    margin-top:3%;
+    box-shadow: 10px 20px 5px gray;
+}
+
+.tileComponent1{
+    width:50%;
+    float:left;
+}
+
+.tileComponent1 > img{
+    width: 100%;
+    height: 100%
+}
+
+.tileComponent2{
+    width:45%;
+    float:left;
+    margin-left: 4%;
+    margin-top: 15%;
+}
+.componentHeading{
+    color: #3b2632;
+    font-size:25px;
+}
+.componenSubtHeading{
+    color: gray;
+    font-size:20px;
+}
+
 /*Footer Css*/
 Footer{
-    height:100px;
-    border:5px  solid brown
+    /* height:100px; */
+    margin-top:3%;
+    background-color: #3b2632;
+    color:white;
+    text-align: center;
+}
+
+#footText{
+   
+    font-size: 28px;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    display: inline-block;
+    border-right: 2px solid white;
+}
+
+.noBorder{
+    border:none
+}
+
+.socialIcon{
+    height:50px;
+    width:50px
 }
