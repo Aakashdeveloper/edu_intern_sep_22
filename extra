@@ -145,25 +145,6 @@ position: absolute
 position: relative
 
 
+https://imgbb.com/
 
-var a = [
-    {"name":"John","id":"1a","city":"Paris"},
-    {"name":"amrit","id":"1a","city":"Delhi"},
-    {"name":"Shruti","id":"2a","city":"Hongkong"}
-]
-
-var b =  [
-    {"id":"1a","code":"Code11"},
-    {"id":"2a","code":"Code12"}
-]
-
-a.map((data) => {
-    return b.map((datcode) => {
-        let obj = {}
-        if(data.id == datcode.id){
-            obj.name=data.name;
-            obj.code= datcode.code
-        }
-        return obj
-    })
-})
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/k0f4kDd/facebook.png" alt="facebook" border="0"></a>

@@ -1,0 +1,104 @@
+body{
+    margin:auto;
+    background-color:rgb(232, 196, 231)
+}
+a{
+    text-decoration: none;
+}
+/*Header Css*/
+header{
+    height:60px;
+    /* border:2px  solid red; */
+    background-color:#3b2632;
+    color:white
+    
+}
+
+button{
+    height:38px;
+    width:100px;
+    background-color:white;
+    color:rgb(144, 140, 140)
+}
+
+#login{
+    background-color:rgb(195, 226, 195);
+}
+
+#register{
+    background-color:rgb(177, 224, 243);
+}
+
+#icon{
+    float:left;
+    display:flex;
+}
+
+#icon > h1{
+    margin:5%
+}
+#icon > button{
+    margin: 5%
+}
+#social{
+    float:right;
+    margin-top: 12px;
+    margin-right: 3%;
+}
+
+/*Container Css*/
+.container{
+    height:700px;
+    width:90%;
+    /* border:2px solid red; */
+    margin-left: 5%;
+    margin-top:5%;
+    display:inline-block;
+}
+
+#filter{
+    height:500px;
+    width: 20%;
+    border:3px solid gray;
+    float:left;
+}
+
+#content{
+    height:700px;
+    width: 75%;
+    margin-left: 4%;
+    border:3px solid orange;
+    float:left;
+}
+
+
+
+/*Footer Css*/
+Footer{
+    /* height:100px; */
+    margin-top:3%;
+    background-color: #3b2632;
+    color:white;
+    text-align: center;
+}
+
+#footText{
+   
+    font-size: 28px;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    display: inline-block;
+    border-right: 2px solid white;
+}
+
+.noBorder{
+    border:none
+}
+
+.socialIcon{
+    height:50px;
+    width:50px
+}
