@@ -1,0 +1,22 @@
+.btn-purple{
+    background:rgb(242, 196, 242) !important
+}
+.trash{
+    font-size:20px;
+    color:red
+}
+
+.edit{
+    font-size:20px;
+    color:green
+}
+
+.slideDiv{
+    height:350px;
+    width:100%;
+}
+
+.slideDiv img{
+    height:100%;
+    width:100%;
+}
