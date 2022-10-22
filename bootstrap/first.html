@@ -39,7 +39,18 @@
             </div>
         </nav>
 
+        
+
         <div class="container">
+            <div class="row">
+                <div id="first" class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+                <div id="second" class="col-lg-2  col-md-3 col-sm-4 col-xs-6"></div>
+                <div id="third" class="col-lg-2  col-md-3 col-sm-4 col-xs-6"></div>
+                <div id="fourth" class="col-lg-2  col-md-3 col-sm-4 col-xs-6"></div>
+                <div id="fifth" class="col-lg-2  col-md-3 col-sm-4 col-xs-6"></div>
+                <div id="sixth" class="col-lg-2  col-md-3 col-sm-4 col-xs-6"></div>
+                <div id="seventh" class="col-lg-2  col-md-3 col-sm-4 col-xs-6"></div>
+            </div>
             <div id="devCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
@@ -70,13 +81,39 @@
                 <p>
                     London is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
                 </p>
-                <button class="btn btn-primary">Click</button>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#devModal">Click</button>
                 <button class="btn btn-success">Click</button>
                 <button class="btn btn-warning">Click</button>
                 <button class="btn btn-danger">Click</button>
                 <button class="btn btn-info">Click</button>
                 <button class="btn btn-warning btn-purple">Click</button>
             </div>
+
+            <div id="devModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                &times;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <center>
+                                <h2>London</h2>
+                            </center>
+                            <p>
+                                London is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <hr/>
                 <span class="glyphicon glyphicon-print"></span>
                 <span class="glyphicon glyphicon-trash trash"></span>

@@ -20,3 +20,33 @@
     height:100%;
     width:100%;
 }
+
+
+#first{
+    height:200px;
+    background-color:olive
+}
+#second{
+    height:200px;
+    background-color:rgb(36, 118, 177)
+}
+#third{
+    height:200px;
+    background-color:rgb(221, 147, 50)
+}
+#fourth{
+    height:200px;
+    background-color:rgb(234, 77, 100)
+}
+#fifth{
+    height:200px;
+    background-color:rgb(95, 95, 210)
+}
+#sixth{
+    height:200px;
+    background-color:rgb(99, 213, 93)
+}
+#seventh{
+    height:200px;
+    background-color:rgb(104, 198, 219)
+}
