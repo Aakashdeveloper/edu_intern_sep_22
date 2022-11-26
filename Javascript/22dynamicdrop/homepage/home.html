@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <title>Zomato</title>
+        <link href="home.css" rel="stylesheet" type="text/css"/>
+        <script src="home.js"></script>
+    </head>
+    <body>
+        <!--Header Section-->
+        <header>
+            <div id="icon">
+                <h1>Devomato</h1>
+                <button>Home</button>
+            </div>
+            <div id="social">
+                <button id="login" onClick="Test()">Login</button>
+                <button id="register">Regitser</button>
+            </div>
+        </header>
+        <!--Search Section-->
+        <div id="search">
+            <div id="container">
+                <div id="logo">
+                    <span>D!</span>
+                </div>
+                <div id="heading">
+                    Find Best Restaurants Near You
+                </div>
+                <div class="dropdown">
+                    <select id="city" onChange="getRest()">
+                        <option>----SELECT YOUR CITY----</option>
+                       
+                    </select>
+                    <select class="restSelect" id="restSelect1"> 
+                        <option>----SELECT YOUR RESTAURANTS----</option>
+                       
+                    </select>
+                </div>
+            </div>
+        </div>
+        <!--QuickSearch Section-->
+        <div id="quickSearch">
+            <span id="quickHeading">Quick Search</span>
+            <span id="quickSubHeading">Discover Restaurants By Meal</span>
+            <div id="main">
+                <a href="../listing/listing.html">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="images/dinner.png" alt="dinner"/>
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                BreakFast
+                            </div>
+                            <div class="componenSubtHeading">
+                                Start your day with exclusive breakfast options
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="../listing/listing.html">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="images/drinks.png" alt="dinner"/>
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Drinks
+                            </div>
+                            <div class="componenSubtHeading">
+                                Start your day with exclusive breakfast options
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="../listing/listing.html">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="images/nightlife.png" alt="dinner"/>
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                BreakFast
+                            </div>
+                            <div class="componenSubtHeading">
+                                Start your day with exclusive breakfast options
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="images/nukkad_pe.jpg" alt="dinner"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                            BreakFast
+                        </div>
+                        <div class="componenSubtHeading">
+                            Start your day with exclusive breakfast options
+                        </div>
+                    </div>
+                </div>
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="images/lunch.png" alt="dinner"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                            BreakFast
+                        </div>
+                        <div class="componenSubtHeading">
+                            Start your day with exclusive breakfast options
+                        </div>
+                    </div>
+                </div>
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="images/south.png" alt="dinner"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                            BreakFast
+                        </div>
+                        <div class="componenSubtHeading">
+                            Start your day with exclusive breakfast options
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+
+        </div>
+        <!--Footer Section-->
+        <footer>
+            <hr/><hr/>
+            <p id="footText">&copy; Developer Funnel</p>
+            <div id="footMain">
+                <div class="footDiv">
+                    <p>Contact Us</p>
+                    <p>About Us</p>
+                </div>
+                <div class="footDiv">
+                    <p>Contact Us</p>
+                    <p>About Us</p>
+                </div>
+                <div class="footDiv noBorder">
+                    <p>Contact Us</p>
+                    <p>About Us</p>
+                </div>
+            </div>
+            <hr/>
+            <div class="social">
+                <a href="www.facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb" class="socialIcon"/>
+                </a>
+                <a href="www.facebook.com" target="_blank">
+                    <img src="images/insta.png" alt="fb" class="socialIcon"/>
+                </a>
+                <a href="www.facebook.com" target="_blank">
+                    <img src="images/youtube1.png" alt="fb" class="socialIcon"/>
+                </a>
+            </div>
+        </footer>
+      
+        <script>
+            window.onload = getCity()
+        </script>
+    </body>
+</html>
