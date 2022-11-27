@@ -1,0 +1,519 @@
+db.zomato.insert([
+  {
+    "restaurant_id": 1,
+    "restaurant_name": "Domino's Pizza",
+    "location_id": 1,
+    "state_id": 1,
+    "address": "Ashok Vihar Phase 3, New Delhi",
+    "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+    "average_rating": 4.2,
+    "rating_text": "Very Good",
+    "cost": 666,
+    "contact_number": 9453524651,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Breakfast"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Lunch"
+      }
+    ],
+    "cuisines": [
+      {
+        "cuisine_id": 1,
+        "cuisine_name": "North Indian"
+      },
+      {
+        "cuisine_id": 4,
+        "cuisine_name": "Fast Food"
+      }
+    ],
+    "image_gallery": [
+      "https://b.zmtcdn.com/data/pictures/chains/3/143/fbc2c4c9e55a3f011c493dda79c399f5.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/3/143/1adb116d088669540c89150836d668f9.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/3/143/2781ab2c532b711ecd401571cdd87eb9.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/3/143/c751805b5927046d340926f870a95f5e.jpg"
+    ]
+  },
+  {
+    "restaurant_id": 2,
+    "restaurant_name": "Pandit Ji Paratha Hut",
+    "location_id": 2,
+    "state_id": 1,
+    "address": "Shop 44, Plot C,  Ashok Vihar Phase 2,Chincholi, Delhi-110006, Delhi",
+    "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/6/307406/bc1a8c29f7ac21c07077a301ca4b4c00.jpg",
+    "average_rating": 3.5,
+    "rating_text": "Good",
+    "cost": 450,
+    "contact_number": "122345352465",
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Breakfast"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Dinner"
+      }
+    ],
+    "cuisines": [
+      {
+        "cuisine_id": 1,
+        "cuisine_name": "North Indian"
+      },
+      {
+        "cuisine_id": 5,
+        "cuisine_name": "Street Food"
+      }
+    ],
+    "image_gallery": [
+      "https://b.zmtcdn.com/data/reviews_photos/ec1/33873687c26d9719713d71f0712faec1_1532256472.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/bb2/460e82b7be8f808ef09655f5b7edbbb2_1516122671.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/ff4/8ea6f51aebe1cad803c293574f0afff4_1453703271.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/baa/30e9afd319d48c1122e7c19228287baa_1517462886.jpg"
+    ]
+  },
+  {
+    "restaurant_id": 3,
+    "restaurant_name": "Food Adda",
+    "location_id": 12,
+    "state_id": 2,
+    "address": "Borivali West, Mumbai",
+    "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/chains/1/18453961/af81c42413a2fbbacd66eaf72175eb01.jpg",
+    "average_rating": 5,
+    "rating_text": "Excellent",
+    "cost": 1020,
+    "contact_number": "467564",
+    "mealTypes": [
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Lunch"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Dinner"
+      }
+    ],
+    "cuisines": [
+      {
+        "cuisine_id": 3,
+        "cuisine_name": "Chinese"
+      },
+      {
+        "cuisine_id": 4,
+        "cuisine_name": "FastFood"
+      }
+    ],
+    "image_gallery": [
+      "https://b.zmtcdn.com/data/reviews_photos/583/b9e413027d9bd6957e4d55362ef64583_1519082913.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/0a7/dd15e424e1cb78233c142193140e50a7_1519082904.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/9c2/95611b1fcc87c70eb5e4cf76bc38d9c2_1519082898.jpg"
+    ]
+  },
+  {
+    "restaurant_id": 4,
+    "restaurant_name": "The Appetite Momos",
+    "location_id": 11,
+    "state_id": 2,
+    "address": "Kasarvadavli, Thane West, Thane, Mumbai",
+    "restaurnat_thumb": "https://b.zmtcdn.com/data/pictures/chains/7/48607/d37a3f6dcaa58dcd563400d084607875.jpg",
+    "average_rating": 4.5,
+    "rating_text": "Very Good",
+    "cost": 2100,
+    "contact_number": "3496508401",
+    "mealTypes": [
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Snacks"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Drinks"
+      }
+    ],
+    "cuisines": [
+      {
+        "cuisine_id": 1,
+        "cuisine_name": "North Indain"
+      },
+      {
+        "cuisine_id": 3,
+        "cuisine_name": "Chinese"
+      }
+    ],
+    "image_gallery": [
+      "https://b.zmtcdn.com/data/pictures/9/18812749/6d8902db42fcf423f86d353efcfca597.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/2cb/64ffe4cd75031be1aa1cf792337d02cb_1589042698.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/aa0/68eaaf502c40123e316ab06881e9faa0_1550157457.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/f43/86a268598427ffe4f454644d75f58f43_1576856039.jpg"
+    ]
+  },
+  {
+    "restaurant_id": 5,
+    "restaurant_name": "Empire Restaurant",
+    "location_id": 9,
+    "state_id": 3,
+    "address": "Rajajinagar, Bangalore-430006, Bangalore",
+    "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/7/55397/fb83f44f6bbbdd08809b95f8fb6bdb98.jpg",
+    "average_rating": 4.5,
+    "rating_text": "Very Good",
+    "cost": 780,
+    "contact_number": "8731537554",
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Breakfast"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Snacks"
+      }
+    ],
+    "cuisines": [
+      {
+        "cuisine_id": 2,
+        "cuisine_name": "South Indian"
+      },
+      {
+        "cuisine_id": 4,
+        "cuisine_name": "Fast Food"
+      }
+    ],
+    "image_gallery": [
+      "https://b.zmtcdn.com/data/pictures/chains/1/50471/c9c94a1affb4a0be24a3fc91f285da6d.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/1/50471/3f7d0fcb37310b70701adc93fba7bb96.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/f9f/9c43149e2a9f08dff0f841f0feff8f9f_1545821012.jpg"
+    ]
+  },
+  {
+    "restaurant_id": 6,
+    "restaurant_name": "Captain Sam's",
+    "location_id": 13,
+    "state_id": 4,
+    "address": "Sector 40, Chandigarh",
+    "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/chains/6/120976/517f929243a8a987437661453a5b45e0_featured_v2.jpg",
+    "average_rating": 4,
+    "rating_text": "Very Good",
+    "cost": 810,
+    "contact_number": "1233766534",
+    "mealTypes": [
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Drinks"
+      },
+      {
+        "mealtype_id": 6,
+        "mealtype_name": "Nightlife"
+      }
+    ],
+    "cuisines": [
+      {
+        "cuisine_id": 1,
+        "cuisine_name": "North Indian"
+      },
+      {
+        "cuisine_id": 4,
+        "cuisine_name": "Fast Food"
+      }
+    ],
+    "image_gallery": [
+      "https://b.zmtcdn.com/data/pictures/chains/6/120976/988740e98ef37c3402ca776d15081e9c.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/565/c43191825167cb908aaf5a65c4bef565_1581854119.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/9f7/2c2681c51d5cf0d7f5df86ac321189f7_1584209412.jpg"
+    ]
+  },
+  {
+    "restaurant_id": 7,
+    "restaurant_name": "AMA Cafe",
+    "location_id": 14,
+    "state_id": 1,
+    "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/4/307374/b2b03be3aba61b0f173aa23e1abdb42b.jpg",
+    "average_rating": 3.2,
+    "rating_text": "Average",
+    "cost": 450,
+    "contact_number": 9674573343,
+    "address": "House 6, New Colony, Majnu ka Tilla, New Delhi",
+    "mealTypes": [
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Lunch"
+      },
+      {
+        "mealtype_id": 6,
+        "mealtype_name": "Nightlife"
+      }
+    ],
+    "cuisines": [
+      {
+        "cuisine_id": 1,
+        "cuisine_name": "North Indian"
+      },
+      {
+        "cuisine_id": 3,
+        "cuisine_name": "Chinese"
+      }
+    ],
+    "image_gallery": [
+      "https://b.zmtcdn.com/data/reviews_photos/51b/7b7779a74b0ac806ac690da9cb55d51b_1560845012.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/4/307374/419ad47809c87816496b526cde26e780.jpg"
+    ]
+  },
+  {
+    "restaurant_id": 8,
+    "restaurant_name": "Street Foods By Punjab Grill",
+    "location_id": 3,
+    "state_id": 1,
+    "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/3/18545893/37a4a121653b4c5e1b32000dc2357462.jpg",
+    "average_rating": 5,
+    "rating_text": "Excellent",
+    "cost": 200,
+    "address": "Pacific Mall, Tagore Garden, New Delhi",
+    "mealTypes": [
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Dinner"
+      },
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Breakfast"
+      }
+    ],
+    "cuisines": [
+      {
+        "cuisine_id": 4,
+        "cuisine_name": "Fast Food"
+      },
+      {
+        "cuisine_id": 5,
+        "cuisine_name": "Street Food"
+      }
+    ],
+    "image_gallery": [
+      "https://b.zmtcdn.com/data/pictures/chains/9/1599/416315188e74d979d79f83de8588389b.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/9/1599/52cfbe709b5ca95ba69fac0c5a178493.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/9/1599/ceb6b94c68950a317e14860a2b4aef7c.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/9/1599/5df463c1ce26b817ec3ee5133d7eaae9.jpg"
+    ]
+  },
+  {
+    "restaurant_id": 9,
+    "restaurant_name": "A Little Heaven Plate",
+    "location_id": 4,
+    "state_id": 2,
+    "restaurant_thumb": "https://b.zmtcdn.com/data/reviews_photos/f9a/af2c896312788d3b68818b536394ef9a_1630818055.jpg",
+    "average_rating": 5,
+    "rating_text": "Excellent",
+    "cost": 1500,
+    "address": "Bibvewadi, Pune",
+    "mealTypes": [
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Dinner"
+      },
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Breakfast"
+      }
+    ],
+    "cuisines": [
+      {
+        "cuisine_id": 4,
+        "cuisine_name": "Fast Food"
+      },
+      {
+        "cuisine_id": 5,
+        "cuisine_name": "Street Food"
+      }
+    ],
+    "image_gallery": [
+      "https://b.zmtcdn.com/data/reviews_photos/627/0c062e9fa65c3620333dae5e2ed29627_1630826184.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/fd6/fea78c402355144374d038ed9360bfd6_1630828942.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/f3b/935fbe053c91c2b56fcb986f9c0eff3b_1630828418.jpg"
+    ]
+  },
+  {
+    "restaurant_id": 10,
+    "restaurant_name": "MEALFUL WRAPS - Meals In A Wrap",
+    "location_id": 5,
+    "state_id": 2,
+    "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/chains/7/19329357/036f487b679be2ad46f638784bda4913.jpg",
+    "average_rating": 3.7,
+    "rating_text": "Average",
+    "cost": 1200,
+    "address": "Hadapsar, Pune",
+    "mealTypes": [
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Snacks"
+      },
+      {
+        "mealtype_id": 5,
+        "mealtype_name": "Drinks"
+      }
+    ],
+    "cuisines": [
+      {
+        "cuisine_id": 4,
+        "cuisine_name": "Fast Food"
+      },
+      {
+        "cuisine_id": 5,
+        "cuisine_name": "Street Food"
+      }
+    ],
+    "image_gallery": [
+      "https://b.zmtcdn.com/data/pictures/chains/7/19329357/344ea028f1c2de3dccda32a5417e9699.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/7/19329357/84f473aafb1fe8a64ca29587c755aa4f.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/7/19329357/c4e4b127311d749231cd3c73d797098a.jpg"
+    ]
+  },
+  {
+    "restaurant_id": 11,
+    "restaurant_name": "Burger King",
+    "location_id": 6,
+    "state_id": 2,
+    "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/8/6506108/e01ffc3a4d1f4a76e63b3250299f4793.jpg",
+    "average_rating": 3.9,
+    "rating_text": "Average",
+    "cost": 1360,
+    "address": "Kothrud, Pune",
+    "mealTypes": [
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Dinner"
+      },
+      {
+        "mealtype_id": 6,
+        "mealtype_name": "Nightlife"
+      }
+    ],
+    "cuisines": [
+      {
+        "cuisine_id": 3,
+        "cuisine_name": "Chinese"
+      },
+      {
+        "cuisine_id": 5,
+        "cuisine_name": "Street Food"
+      }
+    ],
+    "image_gallery": [
+      "https://b.zmtcdn.com/data/pictures/chains/8/6506108/87dfce2afb78e9adc22411c5984a43e9.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/8/6506108/ef170422fcdcf0a82ad66fc60c7e406e.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/8/6506108/919e57eb4598bed7e171cb42f9081747.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/8/6506108/ef170422fcdcf0a82ad66fc60c7e406e.jpg"
+    ]
+  },
+  {
+    "restaurant_id": 12,
+    "restaurant_name": "Cafe Wink",
+    "location_id": 7,
+    "state_id": 1,
+    "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/chains/4/7224/aa0ac89fbd0b0172d713207dd62eb5a7_featured_v2.jpg",
+    "average_rating": 4.5,
+    "rating_text": "Very Good",
+    "cost": 920,
+    "address": "Anand Vihar, New Delhi",
+    "mealTypes": [
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Lunch"
+      },
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Breakfast"
+      }
+    ],
+    "cuisines": [
+      {
+        "cuisine_id": 1,
+        "cuisine_name": "North Indian"
+      },
+      {
+        "cuisine_id": 2,
+        "cuisine_name": "South Indian"
+      }
+    ],
+    "image_gallery": [
+      "https://b.zmtcdn.com/data/pictures/4/7224/5ce8222f6a0948793a29b7792237faf0.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/4/7224/6e76378a2fa110cd650a45b8048b74dd.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/4/7224/56e204ae5e00e13aece45a6e4639c06b.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/9d6/4ceee59351c723c066a096fa707109d6_1453799625.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/fcb/1bf71da0fc96a638d44c0f0039173fcb_1529350814.JPG"
+    ]
+  },
+  {
+    "restaurant_id": 13,
+    "restaurant_name": "Chandni Chowk 2 Bangalore",
+    "location_id": 8,
+    "state_id": 3,
+    "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/3/18682913/a34c29604492a3b5e584e1e291c28010.jpg",
+    "average_rating": 2.6,
+    "rating_text": "Poor",
+    "cost": 370,
+    "address": "Jeevan Bhima Nagar, Bangalore",
+    "mealTypes": [
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Snacks"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Lunch"
+      }
+    ],
+    "cuisines": [
+      {
+        "cuisine_id": 1,
+        "cuisine_name": "North Indian"
+      },
+      {
+        "cuisine_id": 2,
+        "cuisine_name": "South Indian"
+      }
+    ],
+    "image_gallery": [
+      "https://b.zmtcdn.com/data/pictures/3/18682913/f5d7ea7e44b440363d617c658ef26675.jpg",
+      "https://b.zmtcdn.com/data/pictures/3/18682913/f5d7ea7e44b440363d617c658ef26675.jpg",
+      "https://b.zmtcdn.com/data/pictures/3/18682913/f5d7ea7e44b440363d617c658ef26675.jpg"
+    ]
+  },
+  {
+    "restaurant_id": 14,
+    "restaurant_name": "New Udupi Grand",
+    "location_id": 10,
+    "state_id": 3,
+    "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/4/18649434/e80c1d631064acf97db05986a85cd8e2.jpg",
+    "average_rating": 5,
+    "rating_text": "Excellent",
+    "cost": 370,
+    "address": "HSR, Bangalore",
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Breakfast"
+      },
+      {
+        "mealtype_id": 4,
+        "mealtype_name": "Drinks"
+      }
+    ],
+    "cuisines": [
+      {
+        "cuisine_id": 3,
+        "cuisine_name": "Chinese"
+      },
+      {
+        "cuisine_id": 2,
+        "cuisine_name": "South Indian"
+      }
+    ],
+    "image_gallery": [
+      "https://b.zmtcdn.com/data/reviews_photos/974/0ff7305d699abeb5790bd29e3a80b974_1556103404.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/d33/a6d441a8a6619b7c3e2a4261d35a6d33_1559392496.jpg",
+      "https://b.zmtcdn.com/data/reviews_photos/c9d/de04206704bc24bf7d4736c7b5dbbc9d_1559392496.jpg"
+    ]
+  }
+])

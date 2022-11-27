@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "product_name": "Girls top",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 2000,
+        "Size": "Small",
+        "Image": "https://i.ibb.co/fHj5Tgc/download.jpg",
+        "Color": "Maroon",
+        "Brand": "Gucci"
+    },
+    {
+        "id": 2,
+        "product_name": "Girls top",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 1500,
+        "Size": "Medium",
+        "Image": "https://i.ibb.co/tsXyK5Y/images.jpg",
+        "Color": "Blue",
+        "Brand": "Westside"
+    },
+    {
+        "id": 3,
+        "product_name": "Iron",
+        "category": "Electronics",
+        "category_id": 2,
+        "Price": 3000,
+        "Image": "https://i.ibb.co/Tw9cXss/w6.jpg", 
+        "Color": "Blue",
+        "company": "Havells"
+    },
+    {
+        "id": 4,
+        "product_name": "Iron",
+        "category": "Electronics",
+        "category_id": 2,
+        "Price": 4000,
+        "Image":"https://i.ibb.co/GHQjYvv/w7.jpg",
+        "Color": "Black",
+        "company": "Bajaj"
+    }
+]

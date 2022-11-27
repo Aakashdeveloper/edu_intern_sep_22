@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name":"Lisaa",
+        "category_id":1,
+        "Age":"13+",
+        "image":"https://i.ibb.co/SQCKCGZ/lissa.jpg",
+        "year":2019,
+        "info":"A woman decides to get her mother remarried and sets out to seek her grandparents' blessings. However, after arriving at their house, she discovers their murderous inclination and a haunting past"
+    },
+    {
+        "id": 2,
+        "name":"Khaki",
+        "category_id":1,
+        "Age":"13+",
+        "image":"https://i.ibb.co/Fzq726R/khakee.jpg",
+        "year":2017,
+        "info":"Enjoy Khaki full movie here : An honest police officer finds himself transferred again and again due to his sincerity. After his latest transfer, he comes across a file that involves a gang of ruthless thieves who loot and kill along the highway."
+    },
+    {
+        "id":3,
+        "name":"all is well",
+        "category_id":2,
+        "age":"7+",
+        "image":"https://i.ibb.co/jH2txGL/all-is-well.jpg",
+        "year":2020,
+        "info":"Sending bright smiles and positive vibes your way, All is well is a talk show hosted by Suma Kanakala, where she interacts with various celebrities and maintains an entertaining tenor while highlighting all the good news from around the world.",
+
+    },
+    {
+        "id":4,
+        "name":"honey moon",
+        "category_id":2,
+        "age":"13+",
+        "image":"https://i.ibb.co/CQv0Bmr/honeymoon.jpg",
+        "year":2020,
+        "info":"After consenting to an arranged marriage, Praveen and Tejaswini embark on a journey filled with unexpected events and galore of emotions, and their unplanned honeymoon turns out to be the best decision ever.",
+    }
+]

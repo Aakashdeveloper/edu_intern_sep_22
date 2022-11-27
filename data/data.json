@@ -1,0 +1,30 @@
+{
+    "event":[
+        {
+            "id":1,
+            "name":"83 WorldCup",
+            "starCast":"Deepika, Ranvir",
+            "category_id":"2",
+            "img":"image url",
+            "timimg":""
+        },
+        
+        {
+            "id":2,
+            "name":"Inv Vs Aus",
+            "starCast":"",
+            "category_id":"1",
+            "img":"image url",
+            "timing":"1 Jan 2022"
+        },
+        {
+            "id":3,
+            "name":"Jab We Met",
+            "starCast":"Deepika, Ranvir",
+            "category_id":"2",
+            "img":"image url",
+            "timimg":""
+        }
+    ]
+}
+

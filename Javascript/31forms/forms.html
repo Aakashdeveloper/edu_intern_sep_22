@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="form.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <hr/>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Employee
+                </div>
+                <div class="panel-body">
+                    <form action="" method="GET">
+                        <div class="form-group">
+                            <label class="control-label" for="fname">First Name</label>
+                            <input class="form-control" type="text" id="fname"
+                            name="fname" placeholder="First Name"/>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="lname">Last Name</label>
+                            <input  class="form-control" type="text"  id="lname"
+                            name="lname" placeholder="Last Name"/>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="email">Email</label>
+                                    <input class="form-control" type="text" id="email"
+                                    name="email" placeholder="a@a.com"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="pwd">Password</label>
+                                    <input class="form-control" id="pwd"
+                                    name="pwd" type="password"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label">Country</label>
+                                    <select class="form-control" name="loc" id="country">
+                                        <option>India</option>
+                                        <option>Germany</option>
+                                        <option>Hongkong</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                      
+                        <button class="btn btn-success" type="submit">Submit</button>
+                       
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+db.orders.insert([
+    {
+        "_id": "62514d42f5aec503b2e0f2a9",
+        "name": "Aakash",
+        "email": "aakash@gmail.com",
+        "address": "Hno 23,Sector 1",
+        "phone": 768768686,
+        "cost": 787,
+        "menuItem": [
+            3,
+            5,
+            7
+        ],
+        "status": "Pending"
+    },
+    {
+        "_id": "62514d69f5aec503b2e0f2aa",
+        "name": "Anchal",
+        "email": "anchal@gmail.com",
+        "address": "Hno 23,Sector 1",
+        "phone": 768768686,
+        "cost": 124,
+        "menuItem": [
+            6,
+            34,
+            23
+        ],
+        "status": "Pending"
+    },
+    {
+        "_id": "62514d77f5aec503b2e0f2ab",
+        "name": "Anchal",
+        "email": "anchal@gmail.com",
+        "address": "Hno 23,Sector 1",
+        "phone": 768768686,
+        "cost": 344,
+        "menuItem": [
+            12,
+            45,
+            21
+        ],
+        "status": "Pending"
+    },
+    {
+        "_id": "62514d8bf5aec503b2e0f2ac",
+        "name": "Aakash",
+        "email": "aakash@gmail.com",
+        "address": "Hno 23,Sector 1",
+        "phone": 97876733,
+        "cost": 431,
+        "menuItem": [
+            34,
+            26,
+            17
+        ],
+        "status": "Pending"
+    }
+])
