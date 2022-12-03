@@ -181,6 +181,3 @@ https://api.openweathermap.org/data/2.5/forecast/daily?q=london&mode=json&units=
 
 https://api.openweathermap.org/data/2.5/forecast/daily?lat=28.9891146&lon=77.0342236&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29
 
-
-export import
-form

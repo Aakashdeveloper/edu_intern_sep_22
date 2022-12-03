@@ -4,6 +4,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link href="form.css" rel="stylesheet" type="text/css"/>
+        <script src="forms.js"></script>
     </head>
     <body>
         <div class="container">
@@ -14,10 +15,11 @@
                 </div>
                 <div class="panel-body">
                     <form action="" method="GET">
-                        <div class="form-group">
+                        <div class="form-group" id="fdiv">
                             <label class="control-label" for="fname">First Name</label>
                             <input class="form-control" type="text" id="fname"
-                            name="fname" placeholder="First Name"/>
+                            name="fname" placeholder="First Name" onblur="validateFname()" />
+                            <p id="fout"></p>
                         </div>
                         <div class="form-group">
                             <label class="control-label" for="lname">Last Name</label>
@@ -29,20 +31,27 @@
                                 <div class="form-group">
                                     <label class="control-label" for="email">Email</label>
                                     <input class="form-control" type="text" id="email"
-                                    name="email" placeholder="a@a.com"/>
+                                    name="email" placeholder="a@a.com" oninput="validateEmail()"/>
+                                    <p id="eout"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label class="control-label" for="pwd">Password</label>
                                     <input class="form-control" id="pwd"
-                                    name="pwd" type="password"/>
+                                    name="pwd" type="password"
+                                    oninput="validatePassword()"/>
+                                    <span class="glyphicon glyphicon-eye-open" onClick="showPassword()"></span>
+                                    <p id="pout"></p>
+                                    <div id="ppout"></div>
                                 </div>
                             </div>
                             <div class="col-md-6">
+                                <span></span>
                                 <div class="form-group">
+                                    
                                     <label class="control-label">Country</label>
-                                    <select class="form-control" name="loc" id="country">
+                                    <select class="form-control" name="loc" id="country" onChange="getCountry()">
                                         <option>India</option>
                                         <option>Germany</option>
                                         <option>Hongkong</option>
