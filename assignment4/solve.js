@@ -11,41 +11,42 @@ var ratingData = [
 
 let distinct = [];
 for(i=0;i<ratingData.length;i++){
-    if(distinct.indexOf(ratingData[i].restaurant) === -1 ){
+    if(distinct.indexOf(ratingData[i].restaurant) ===  -1){
         distinct.push(ratingData[i].restaurant)
     }
 }
 
-//console.log(distinct)
 
-let unique = ['KFC', 'Burger King', 'Domino', 'Subway', 'Pizza Hut' ];
+let unique =  [ 'KFC', 'Burger King', 'Domino', 'Subway', 'Pizza Hut' ]
 let avgRating = [];
-let outrating = 0;
-let count = 0
+let outRating = 0;
+let count = 0;
 
 for(i=0;i<unique.length;i++){
     for(j=0;j<ratingData.length;j++){
         if(unique[i] == ratingData[j].restaurant){
-            outrating += ratingData[j].rating;
-            count = count+1
+            outRating += ratingData[j].rating;
+            count = count + 1;
         }
     }
 
-    let output = Number(outrating)/Number(count);
+    let output = Number(outRating)/Number(count);
     let myObj = {};
     myObj.restaurant = unique[i];
-    myObj.averageRating = output;
+    myObj.averageRating = output
     avgRating.push(myObj);
     count = 0;
-    outrating = 0;
+    outRating = 0;
 }
 
 console.log(avgRating)
 
-// [
-//     { restaurant: 'KFC', averageRating: 4 },
-//     { restaurant: 'Burger King', averageRating: 4 },
-//     { restaurant: 'Domino', averageRating: 1.5 },
-//     { restaurant: 'Subway', averageRating: 3.5 },
-//     { restaurant: 'Pizza Hut', averageRating: 5 }
-// ]
+/*
+[
+  { restaurant: 'KFC', averageRating: 4 },
+  { restaurant: 'Burger King', averageRating: 4 },
+  { restaurant: 'Domino', averageRating: 1.5 },
+  { restaurant: 'Subway', averageRating: 3.5 },
+  { restaurant: 'Pizza Hut', averageRating: 5 }
+]
+*/
