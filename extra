@@ -210,3 +210,21 @@ NodejS
 ** NodeJs must be installed in your laptop
 > go inside the folder using gitbash/cmd
 > npm i packageName / npm install packageName
+
+////////////
+CRUD
+C > Create (Post)
+R > Read   (Get)
+U > Update (Put)
+D > Delete (Delete)
+
+
+///Global
+> Install in your laptop irrespective of any applications
+> It is use to start application/ use before application start
+> nodemon
+> global package will not added in package.json
+
+//////////Step to install global package
+> open cmd as adminstrator
+> npm i -g nodemon
