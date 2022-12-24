@@ -17,7 +17,7 @@ Assignments ( Will upload edureka)  (8) 15%
 
 100%
 100% Interview 
-200%
+200%    
 
 HTML > Raw Structure 
 CSS > Looks and feels
@@ -27,19 +27,16 @@ Nodes+Express > Backend of app (help to make API)
 Mongo > Database (it will save all our data)
 React > Frontend (display part of app)
 
-
 MERN Stack
 
-
 https://github.com/ > Signup(create account)    
-https://github.com/Aakashdeveloper > Follow
-https://www.youtube.com/developerfunnel > Subscribe
+https://www.linkedin.com/ > Create Account
+https://stackoverflow.com/ > Create Account
 https://code.visualstudio.com/ > install
 https://git-scm.com/downloads > Install
 https://nodejs.org/en/ > Install
-https://www.linkedin.com/ > Create Account
-https://stackoverflow.com/ > Create Account
-
+https://github.com/Aakashdeveloper > Follow
+https://www.youtube.com/developerfunnel > Subscribe
 
 extensions
 > vscode-icons
@@ -228,3 +225,15 @@ D > Delete (Delete)
 //////////Step to install global package
 > open cmd as adminstrator
 > npm i -g nodemon
+
+
+////////////////////////////////////////////////////////////////
+Params
+> What we pass after /
+> We need to define if we want to use it
+> Should be use for passing 1 or 2 values
+
+Queryparams
+> What we pass after ?
+> No need to define if we want to use it
+> Should use for passing multiple values

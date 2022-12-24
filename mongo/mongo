@@ -1,0 +1,115 @@
+nosql
+
+sql
+
+RollNo | Hindi | English |
+  1    |  80   |         |
+  2    |       |   70    |
+  3    |  89   |         |
+
+Mongo
+[
+    {
+        rollNo:1,
+        Hindi:80
+    },
+    {
+        rollNo:2,
+        English:70
+    },
+    {
+        rollNo:3,
+        Hindi:89,
+        computer:98
+    }
+]
+
+
+
+Sql        Mongo(Nosql)
+Database   Database
+Table      Collection
+Row        Document
+Select     find
+Insert     Insert
+Update     update
+Delete     remove/delete
+
+
+///////
+https://www.mongodb.com/try/download/community
+
+////
+In C drive make folder by name of data
+and inside data make folder by name of db
+
+C:/data/db
+
+////////////////
+// windows
+To Start mongo server
+> open cmd and go inside bin folder
+(C:\programfile\mongodb\5.0.4\server\bin)
+> mongod 
+(start mongo server on port 27017)
+(do not close this cmd)
+
+
+To Start mongo client
+> open cmd and go inside bin folder
+(C:\programfile\mongodb\5.0.4\server\bin)
+> mongo
+(only require to test query)
+
+
+// mac/linux
+> open terminal
+> sudo mkdir data/db
+> close cmd
+
+To Start mongo server
+> open terminal
+> mongod --dbpath data/db
+(start mongo server on port 27017)
+(do not close this terminal)
+
+
+To Start mongo client
+> open terminal
+> mongo
+(only require to test query)
+
+
+/////////////////
+# See Exisiting Db
+> show dbs
+
+# Go Inside DB
+> use databasename
+
+# Go see collection of db
+> show collections
+
+# To See all the data in db
+> db.collectionName.find()
+
+> db.location.find()
+> db.location.find().pretty()
+
+/////////////
+# Create database
+> use yourdatabase name
+
+# Insert data in collection
+db.collection.inser({})
+
+db.test.insert({name:'Amit',city:'Amsterdam'})
+db.test.insert({_id:1,name:'Latika',city:'Paris',subject:'UI'})
+db.test.insert({name:'Karan',city:'Pune'})
+
+
+/////
+find with condition
+> db.restaurants.find({state_id:1})
+
+> db.restaurants.find({state_id:1,rating_text: "Very Good"})

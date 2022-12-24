@@ -1,8 +1,12 @@
 * page 1
-> List Of City
-> List of Restaurants
+# List Of City
+> http://localhost:9500/locations
+# List of Restaurants
+> http://localhost:9500/restaurants
+
 > Restaurants wrt City
-> List of quickSearch
+# List of mealType
+> http://localhost:9500/mealType
 
 * Page2
 > List of Restaurants wrt to meal
