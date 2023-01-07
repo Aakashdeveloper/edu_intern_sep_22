@@ -237,3 +237,10 @@ Queryparams
 > What we pass after ?
 > No need to define if we want to use it
 > Should use for passing multiple values
+
+
+///////////
+Step to generate React App
+////////
+> Go inside folder
+> npx create-react-app appname

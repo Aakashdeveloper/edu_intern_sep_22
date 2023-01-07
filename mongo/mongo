@@ -113,3 +113,34 @@ find with condition
 > db.restaurants.find({state_id:1})
 
 > db.restaurants.find({state_id:1,rating_text: "Very Good"})
+
+>  db.restaurants.find({"mealTypes.mealtype_id":1})
+
+
+https://account.mongodb.com/account/login
+
+
+Network Access
+    > Add IP Address
+        > 0.0.0.0/0
+
+Database Access
+    > Add New Database User
+        > test test123
+            > Atlas Admin
+
+mongodb+srv://test:test123@cluster0.f8vmc.mongodb.net/?retryWrites=true&w=majority
+
+
+
+db.order.updateOne(
+    {condition},
+    {
+        $set:{
+            data
+        }
+    }
+)
+
+
+db.order.remove({_id})

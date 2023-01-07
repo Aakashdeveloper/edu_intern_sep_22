@@ -1,0 +1,28 @@
+{
+  "name": "paytmnode.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "commit": "git-cz",
+    "prettier:check": "prettier --check 'src/**/*.{js,mdx}'",
+    "validate": "run-s test lint prettier:check",
+    "prerelease": "git checkout master && git pull origin master && npm i && run-s validate styleguide:build && git-authors-cli && git add .",
+    "release": "standard-version -a",
+    "postrelease": "run-s release:*",
+    "release:tags": "git push --follow-tags origin master",
+    "release:github": "conventional-github-releaser -p angular",
+    "ci:validate": "rm -rf node_modules && npm ci && npm run validate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cf-client3": "0.0.1",
+    "cf-http-client": "^1.3.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.17.1"
+  }
+}
