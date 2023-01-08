@@ -244,3 +244,37 @@ Step to generate React App
 ////////
 > Go inside folder
 > npx create-react-app appname
+
+
+React
+> Is javascript library
+which help to build single page application
+using component based structure
+
+
+functional
+> Dumb component
+> Mainly use for display purpose
+> Cannot maintain the state
+
+class
+> Logical Component
+> Use logics as well as display
+> Can maintain state
+
+
+////////////////
+hooks
+> Alternte to class 
+> Looks like functional component
+> But can do all work of class component
+
+///////////
+State
+> Act like a local variable
+> Any data interaction will happen through state only
+> We can update the value of state
+
+Props
+> Use to transfer data between 2 nested component
+> we cannot update the value of props
