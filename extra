@@ -278,3 +278,7 @@ State
 Props
 > Use to transfer data between 2 nested component
 > we cannot update the value of props
+
+
+parent > child (props)
+child > parent (props with callback function)

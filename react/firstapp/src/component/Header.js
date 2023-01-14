@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import './Header.css';
 
 class Header extends Component {
 
@@ -12,34 +13,24 @@ class Header extends Component {
     }
 
     handleChange=(event)=>{
-        console.log(event.target.value)
+        //console.log(event.target.value)
         this.setState({keyword:event.target.value})
+        this.props.userInput(event.target.value)
     }
 
     render(){
         return(
             <div>
-                <center>
-                    <h1>{this.state.title}</h1>
-                    <input onChange={this.handleChange}/>
-                    <div>{this.state.keyword}</div>
-                </center>
-                <hr/>
+                <header>
+                    <div className="logo">{this.state.title}</div>
+                    <center>
+                        <input onChange={this.handleChange}/>
+                        <div style={{color:'white',fontSize:'20px'}} >{this.state.keyword}</div>
+                    </center>
+                </header>
             </div>
         )
     }
 }
-
-
-// const Header = ( ) => {
-//     return(
-//         <div>
-//             <center>
-//                 <h1>React App</h1>
-//             </center>
-//             <hr/>
-//         </div>
-//     )
-// }
 
 export default Header;
