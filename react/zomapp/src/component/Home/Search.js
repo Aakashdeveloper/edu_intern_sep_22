@@ -60,7 +60,7 @@ class Search extends Component {
                         <div id="heading">
                             Find Best Restaurants Near You
                         </div>
-                        <div class="dropdown">
+                        <div className="dropdown">
                             <select onChange={this.handleCity}>
                                 <option>----SELECT YOUR CITY----</option>
                                 {this.renderCity(this.state.location)}

@@ -8,29 +8,29 @@ const Footer = () => {
                 <hr/><hr/>
                 <p id="footText">&copy; Developer Funnel</p>
                 <div id="footMain">
-                    <div class="footDiv">
+                    <div className="footDiv">
                         <p>Contact Us</p>
                         <p>About Us</p>
                     </div>
-                    <div class="footDiv">
+                    <div className="footDiv">
                         <p>Contact Us</p>
                         <p>About Us</p>
                     </div>
-                    <div class="footDiv noBorder">
+                    <div className="footDiv noBorder">
                         <p>Contact Us</p>
                         <p>About Us</p>
                     </div>
                 </div>
                 <hr/>
-                <div class="social">
+                <div className="social">
                     <a href="www.facebook.com" target="_blank">
-                        <img src="https://i.ibb.co/wyH9JxS/facebook.png" alt="fb" class="socialIcon"/>
+                        <img src="https://i.ibb.co/wyH9JxS/facebook.png" alt="fb" className="socialIcon"/>
                     </a>
                     <a href="www.facebook.com" target="_blank">
-                        <img src="https://i.ibb.co/w0kZ5Hf/insta.png" alt="fb" class="socialIcon"/>
+                        <img src="https://i.ibb.co/w0kZ5Hf/insta.png" alt="fb" className="socialIcon"/>
                     </a>
                     <a href="www.facebook.com" target="_blank">
-                        <img src="https://i.ibb.co/wyH9JxS/facebook.png" alt="fb" class="socialIcon"/>
+                        <img src="https://i.ibb.co/wyH9JxS/facebook.png" alt="fb" className="socialIcon"/>
                     </a>
                 </div>
             </footer>
