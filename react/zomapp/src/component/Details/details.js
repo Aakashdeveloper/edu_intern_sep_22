@@ -21,6 +21,15 @@ class Details extends Component{
         }
     }
 
+    addToCart=(data)=>{
+        this.setState({userItem:data})
+    }
+
+    proceed = () => {
+        sessionStorage.setItem('menu',this.state.userItem)
+        this.props.history.push(`/placeOrder/${this.state.details.restaurant_name}`)
+    }
+
     render(){
         // let details = this.state.details;
         let {details} = this.state;
@@ -70,7 +79,8 @@ class Details extends Component{
                 </div>
                 <hr/>
                 <div className="col-md-12">
-                    <MenuDisplay menuData={this.state.menuList}/>
+                    <MenuDisplay menuData={this.state.menuList}
+                    finalOrder={(data) => {this.addToCart(data)}}/>
                 </div>
             </>
         )
