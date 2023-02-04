@@ -1,0 +1,24 @@
+{
+  "orders": [
+    {
+      "id": 6951,
+      "hotel_name": "Burger King",
+      "name": "Ankit",
+      "email": "ankit@gmail.com",
+      "cost": 477.14,
+      "phone": 9876543212,
+      "address": "77 K Delhi",
+      "menuItem": "[52,54,51]"
+    },
+    {
+      "id": 2575,
+      "hotel_name": "The Appetite Momos",
+      "name": "Ankit",
+      "email": "ankit@gmail.com",
+      "cost": 290,
+      "phone": 9876543212,
+      "address": "77 K Delhi",
+      "menuItem": "[17,19,16]"
+    }
+  ]
+}

@@ -26,7 +26,7 @@ class Details extends Component{
     }
 
     proceed = () => {
-        sessionStorage.setItem('menu',this.state.userItem)
+        sessionStorage.setItem('menu',JSON.stringify(this.state.userItem))
         this.props.history.push(`/placeOrder/${this.state.details.restaurant_name}`)
     }
 
@@ -73,7 +73,7 @@ class Details extends Component{
                         </Tabs>
                         <div>
                             <Link to={`/listing/${this.state.mealId}`} className="btn btn-danger">Back</Link> &nbsp;
-                            <button  className="btn btn-success">Procceed</button>
+                            <button  className="btn btn-success" onClick={this.proceed}>Procceed</button>
                         </div>
                     </div>
                 </div>
