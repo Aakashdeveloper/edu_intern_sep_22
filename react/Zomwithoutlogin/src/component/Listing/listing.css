@@ -1,0 +1,70 @@
+#mainListing{
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+#filter{
+    height:600px;
+    width:20%;
+    float: left;
+    border: 5px solid gray;
+}
+#content{
+    width:65%;
+    float: left;
+    margin-left: 5%;
+    margin-top: -1%;
+
+}
+
+.item {
+    width: 875px;
+    height: 320px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 20px;
+}
+
+.Image {
+    width: 340px;
+    height: 260px;
+    border-radius: 23px;
+    background-color: #ea6060;
+    margin-left:5%;
+}
+
+.hotel_name {
+    width: 100%;
+    height: 43px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.city_name {
+    width: 100%;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.rating {
+    line-height: 5.4;
+}
+
+.labelDiv{
+    margin-top:5%;
+    font-size:25px;
+}

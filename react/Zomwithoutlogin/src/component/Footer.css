@@ -1,0 +1,110 @@
+Footer{
+    /* height:100px; */
+    margin-top:3%;
+    background-color: #3b2632;
+    color:white;
+    text-align: center;
+}
+
+#footText{
+   
+    font-size: 28px;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    display: inline-block;
+    border-right: 2px solid white;
+}
+
+.noBorder{
+    border:none
+}
+
+.socialIcon{
+    height:50px;
+    width:50px
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color: rgb(240, 187, 196);
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(234, 190, 240);
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(141, 239, 239)
+    }
+    #heading{
+        margin-left: 25%;
+        margin-top:20%;
+    }
+    .dropdown{
+        margin-left: 30%;
+        margin-top: 30%;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(240, 232, 175)
+    }
+    .tileContainer{
+        width: 45%;
+    }
+    #heading {
+        margin-top: 31%;
+        font-size: 45px;
+    }
+     .dropdown{
+        margin-top: 42%;
+    }
+}
+
+@media screen and (max-width:948px){
+
+    #heading {
+        margin-top: 20%;
+        font-size: 45px;
+    }
+     .dropdown{
+        margin-top: 32%;
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(175, 240, 197)
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(211, 237, 176)
+    }
+    .tileContainer{
+        width: 100%;
+    }
+    #logo{
+        margin-left:30%
+    }
+    #heading {
+        margin-top: 46%;
+        margin-left: 0%;
+        font-size: 39px;
+    }
+    .dropdown {
+        margin-left: 0%;
+        width:100%;
+        margin-top: 65%;
+    }
+}

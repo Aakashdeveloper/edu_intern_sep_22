@@ -5,7 +5,6 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import './details.css';
 import MenuDisplay from './menuList';
-import Header from '../Header';
 
 const rurl = "http://3.17.216.66:4000/details";
 const murl = "http://3.17.216.66:4000/menu";
@@ -36,7 +35,6 @@ class Details extends Component{
         let {details} = this.state;
         return(
             <>
-                <Header/>
                 <div id="mainContent">
                     <div className="imgDiv">
                         <img src={details.restaurant_thumb} alt={details.restaurant_name}/>
