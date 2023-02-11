@@ -1,6 +1,8 @@
 let express = require('express');
 let app = express();
-let port = 9500;
+let dotenv = require('dotenv');
+dotenv.config()
+let port = process.env.PORT || 9500;
 let cors = require('cors');
 let mongo = require('mongodb');
 let MongoClient = mongo.MongoClient;
