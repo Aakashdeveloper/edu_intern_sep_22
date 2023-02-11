@@ -319,3 +319,7 @@ dummy api
 (body) => {"email":"aa@gmail.com","password":"12345678"} (response)=> {auth:true,token:'dgsdg'}
 
 /*UserInfo/ (GET) => http://3.17.216.66:5000/api/auth/userinfo (Header) => {'x-access-token':'token value from login'}
+
+
+// step to make react app live
+> npm run build

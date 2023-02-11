@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import './Header.css';
-import {Link} from 'react-router-dom';
+import {Link,withRouter} from 'react-router-dom';
 
 const url = "http://3.17.216.66:5000/api/auth/userinfo "
 class Header extends Component {
@@ -78,4 +78,4 @@ class Header extends Component {
     }
 }
 
-export default Header
+export default withRouter(Header)
